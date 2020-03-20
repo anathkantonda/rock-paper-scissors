@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(172, 15, 240), rgb(145, 38, 145));
+    font-family: Arial;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 30px 30px 30px;
+}
+
+.hands img {
+    width: 150px;
+    height: 150px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background: none;
+    background: linear-gradient(to right, rgb(79, 29, 226), rgb(202, 53, 202));
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.computerHand {
+    transform: rotateY(180deg);
+}
